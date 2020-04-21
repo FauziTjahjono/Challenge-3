@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Fauzi-API-Space X</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.js"></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.1/mapbox-gl.css" rel="stylesheet" />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+        <script src="scripts/main.js" defer></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
+        <script src="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.js"></script>
+        <script src="scripts/locations.js" defer></script>
+        <script src="javascript.js" defer></script>
+        <link href="https://api.mapbox.com/mapbox-gl-js/v1.9.0/mapbox-gl.css" rel="stylesheet" />
+        <!-- Geocoder assets -->
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.min.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.4.2/mapbox-gl-geocoder.css"
+        type="text/css"
+        />
+         <!-- Directions assets -->
+        <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.js"></script>
+        <link
+        rel="stylesheet"
+        href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.0.2/mapbox-gl-directions.css"
+        type="text/css"/>
+	</head>
+	<body>  
+    <div id="parent">
+
+            <article class="welkomstekst">
+                <h1> Space X Landingsplan</h1>
+                    <ul>
+                        <li id="listitem">Welkom terug we hopen dat je een fijne reis hebt gehad!</li>
+                        <br>
+                        <li>Gebruik de Routeplanner en de Weersverwachting functie  </li>
+                        <li>om te kijken wat de weersverwachtingen zijn </li>
+                        <li>en de tijdsduur om thuis te komen</li>
+                
+                    </ul>
+            </article>
+      <div id="son">
+
+            <article class="mapcontainer">
+                <h1>Routeplanner</h1>
+                <div id="map"></div>
+                <script src="https://npmcdn.com/@turf/turf@5.1.6/turf.min.js"></script>
+
+            </article>
+             <article class="weercontainer">
+                <div class="weer">
+                    <h1>Weersverwachting</h1>
+                    <div class="icoon"><img id="weerIcoon" src="icons/unknown.png"></div>
+                    <div class="temperatuur">Temperatuur</div>
+                    <div class="beschrijving">Beschrijving</div>
+                    <div class="locatie">Locatie</div>
+
+                </div>
+                <div class="weerzoekbalk">
+                     <input type="text" class="inputTekst" placeholder="Amsterdam">
+                     <input type="submit" class="knop" value="Zoeken">
+                </div>
+            </article>
+       </div>
+    </div>   
+	</body>
+</html>

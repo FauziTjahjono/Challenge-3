@@ -1,0 +1,206 @@
+@media screen and (max-width: 767px) {
+
+ body {
+          font-family: lao; 
+          background-color: black;
+          color: white;
+          text-align: center;
+          display:flex;
+
+}
+#parent {
+        flex-direction: column;
+
+    }
+    
+    
+#son {
+         flex-direction: column;
+   
+    }
+    
+#map {
+          height: 400px;
+          width: 400px;
+          display:flex;
+          margin-left:40px;
+}
+ul {
+          list-style: none;
+}
+
+h1  {
+      font-size:20px;
+    }
+    
+#listitem {
+    font-weight:bold;
+    font-size:15px;
+}
+
+.knop {
+    background-color:#8A8ACB;
+    color:white;
+    border-radius:10px;
+    font-family:lao;
+    font-weight:bold;
+    font-size:15px;
+    padding:5px 7px 5px 7px;
+    
+}
+    
+.inputTekst {
+    background-color:white;
+    border-radius:10px;
+     padding:5px 7px 5px 7px;
+    font-family:lao;
+    font-size:15px;
+    margin-top:40px;
+}
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+ body {
+          font-family: lao; 
+          background-color: black;
+          color: white;
+          text-align: center;
+          
+
+}
+
+#parent {
+  background-color: black;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+        
+        
+    }
+
+#son    {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+   
+        
+    }
+    
+
+    
+#map {
+          height: 400px;
+          width: 400px;
+  
+
+
+}
+
+h1  {
+      font-size:20px;  
+    }
+    
+ul {
+          list-style: none;
+}
+
+#listitem {
+    font-weight:bold;
+    font-size:15px;
+}
+
+.knop   {
+    background-color:#8A8ACB;
+    color:white;
+    border-radius:10px;
+    font-family:lao;
+    font-weight:bold;
+    font-size:15px;
+    padding:5px 7px 5px 7px;
+    
+}
+    
+.inputTekst {
+    background-color:white;
+    border-radius:10px;
+     padding:5px 7px 5px 7px;
+    font-family:lao;
+    font-size:15px;
+    margin-top:40px;
+
+}
+}
+
+
+
+@media screen and (min-width: 1025px) {
+
+body {
+  background-color:black;
+  font-family: lao; 
+
+    }
+
+#parent {
+  background-color: black;
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+
+        
+        
+    }
+
+#son    {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+   
+        
+    }
+
+
+ul {
+    list-style: none;
+    
+    
+}
+
+#listitem {
+    font-weight:bold;
+    font-size:20px;
+}
+    
+#map {
+  height: 400px;
+  width: 500px;
+  
+
+
+}
+
+.knop {
+    background-color:#8A8ACB;
+    color:white;
+    border-radius:10px;
+    font-family:lao;
+    font-weight:bold;
+    font-size:15px;
+    padding:5px 10px 5px 10px;
+    
+}
+
+.inputTekst {
+    background-color:white;
+    border-radius:10px;
+     padding:5px 7px 5px 7px;
+    font-family:lao;
+    font-size:15px;
+    margin-top:40px;
+
+}
+}
